@@ -4,19 +4,8 @@ Welcome to the **Zebrafish Social Behavior Tutorial** repository. This tutorial 
 
 ---
 
-## Citation
-If you find this tutorial, algorithms, or datasets useful in your research, please cite:
-
-> This Tutorial: Izawa, T. (2026). *Measurement and Analysis of Zebrafish Social Behavior: A Hands-on Tutorial Series*. Zenodo. https://doi.org/xx.xxxx/zenodo.xxxxxxx
-> 
-> Zebrafish Dataset: Deligkaris, K., Neiman, R., Hiroi, M., Izawa, T., O’Shaughnessy, L., Rodriguez, L. C., Masai, I., & Stephens, G. J. (2026). A dataset of fine-grained zebrafish interactions in health and disease. Scientific Data, 13(1), 583. https://doi.org/10.1038/s41597-026-06953-6 
->
-> Analysis of Zebrafish Fighting: O'Shaughnessy, L., Izawa, T., Masai, I., Shaevitz, J. W., & Stephens, G. J. (2024). Dynamics of Dominance in Interacting Zebrafish. PRX Life, 2(4), 043006. https://doi.org/10.1103/PRXLife.2.043006
-
----
-
 ## Overview of the Tutorials
-In this tutorial, we will use this notebook to visualize the 3D trajectories of two swimming adult zebrafish and interact with the trajectory data. The required data - along with optional raw videos - will be provided on a flash drive (~30GB). To analyze the data, we will use these trajectories to calculate the distance between the two fish, their individual speeds, and their interactions (approach and escape behavior). If time permits, we will discuss additional parameters we can compute to extract interpretable behavioral insights.
+In this tutorial, we will use this notebook to visualize the 3D trajectories of two swimming adult zebrafish and to interact with the trajectory data. The required data - along with optional raw videos - will be provided on a flash drive (~30GB). To analyze the data, we will use these trajectories to calculate the distance between the two fish, their individual speeds, and their interactions, such as chasing and escaping behavior. If time permits, we will discuss additional parameters we can compute to extract interpretable behavioral insights.
 
 ---
 
@@ -33,17 +22,18 @@ Open your terminal and run the command that matches your Mac's processor:
 ```bash
   curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
 ```
-* **For Intel:**
-```bash
-  curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+* **For 64-bit Windows (Standard):**
+```cmd
+  curl -L -o miniconda_installer.exe [https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.sh](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.sh)
 ```
+ 
 ### 2. Run the Installer Script
 Execute the installer you just downloaded:
 
 * **For Apple Silicon (M1/M2/M3/M4 chips):**
+```bash
 bash Miniconda3-latest-MacOSX-arm64.sh
-* **For Intel:**
-bash Miniconda3-latest-MacOSX-x86_64.sh
+```
 
 ### 3. Follow the Prompts
 Press Return to review the license agreement, then type yes to agree.
@@ -80,5 +70,15 @@ jupyter notebook
 If you prefer not to install anything locally, you are welcome to try Binder (https://mybinder.org/), Google CoLab (https://colab.research.google.com/), or something similar.
 
 ---
+## References
+ 
+> Zebrafish Dataset: Deligkaris, K., Neiman, R., Hiroi, M., Izawa, T., O’Shaughnessy, L., Rodriguez, L. C., Masai, I., & Stephens, G. J. (2026). A dataset of fine-grained zebrafish interactions in health and disease. Scientific Data, 13(1), 583. https://doi.org/10.1038/s41597-026-06953-6 
+>
+> Analysis of Zebrafish Fighting: O'Shaughnessy, L., Izawa, T., Masai, I., Shaevitz, J. W., & Stephens, G. J. (2024). Dynamics of Dominance in Interacting Zebrafish. PRX Life, 2(4), 043006. https://doi.org/10.1103/PRXLife.2.043006
+---
 
 ## Contributors & Acknowledgements
+
+Prepared by Tatsuo Izawa
+
+Thanks: Mariia and Luis
