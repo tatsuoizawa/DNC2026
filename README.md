@@ -5,7 +5,7 @@ Welcome to the **Zebrafish Social Behavior Tutorial** repository. This tutorial 
 ---
 
 ## Overview of the Tutorials
-In this tutorial, we will use this notebook to visualize the 3D trajectories of two swimming adult zebrafish and to interact with the trajectory data. The required data - along with optional raw videos - will be provided on a flash drive (~30GB). To analyze the data, we will use these trajectories to calculate the distance between the two fish, their individual speeds, and their interactions, such as chasing and escaping behavior. If time permits, we will discuss additional parameters we can compute to extract interpretable behavioral insights.
+In this 2-day lab practice, we will use this notebook (which will be shared later) to visualize the 3D trajectories of two swimming adult zebrafish and learn to interact with the trajectory data. To analyze the data, we will use these trajectories to calculate the distance between the two fish, their individual speeds, and their interactions, such as chasing and escaping behavior. We will first discuss what we can compute to extract interpretable behavioral insights.
 
 ---
 
@@ -13,7 +13,7 @@ In this tutorial, we will use this notebook to visualize the 3D trajectories of 
 
 ## Prerequisites: Install Miniconda & Setup Jupyter
 
-If you do not have Conda installed, please follow these steps to set up your environment on macOS.
+If you do not have Conda installed, please follow these steps to set up your environment.
 
 ### 1. Download the Installer
 Open your terminal and run the command that matches your Mac's processor:
@@ -42,27 +42,35 @@ When asked to initialize Miniconda, type yes. This allows the conda command to w
 
 ### 4. Refresh Your Terminal
 Apply the changes to your terminal immediately by reloading your shell configuration:
+```bash
 source ~/.zshrc
-
+```
 (Alternatively, close your current terminal window and open a new one).
 
 ### 5. Create and Activate the Environment
 Create the Conda Environment
 Build the project environment using the provided configurations:
+```bash
 conda env create -n 2fish_tutorial -f environment.yml
+```
 
 ### 6. Activate the Environment
 Activate your new isolated workspace:
+```bash
 conda activate 2fish_tutorial
+```
 
 ### 7. Install Jupyter Notebook
 If Jupyter Notebook is not already included in your environment.yml file, manually add it to the active workspace by running:
+```bash
 conda install -c conda-forge notebook -y
+```
 
 ### 8. Launch the Tutorial
 Fire up the local host server to begin:
+```bash
 jupyter notebook
-
+```
 ---
 
 ## Running in the Cloud (No Installation Required)
@@ -81,4 +89,4 @@ If you prefer not to install anything locally, you are welcome to try Binder (ht
 
 Prepared by Tatsuo Izawa
 
-Thanks: Mariia and Luis
+Thanks: Mariia Pavelchenko and Luis Carretero
