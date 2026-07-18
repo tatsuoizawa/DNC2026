@@ -61,7 +61,6 @@ conda activate 2fish_tutorial
 ```
 
 ### 7. Install Jupyter Notebook
-If Jupyter Notebook is not already included in your environment.yml file, manually add it to the active workspace by running:
 ```bash
 conda install -c conda-forge notebook -y
 ```
