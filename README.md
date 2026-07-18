@@ -4,7 +4,7 @@ Welcome to the **Zebrafish Social Behavior Tutorial** repository. This tutorial 
 
 ---
 
-## Overview of the Tutorials
+## Overview
 In this two-day lab practice, we will use a Jupyter notebook (which will be shared later) to visualize the 3D trajectories of two swimming adult zebrafish and learn how to interact with the data. Using these trajectories, we will calculate the distance between the fish, their individual speeds, and social interactions such as chasing and escaping. Before diving in, we will discuss what metrics we can compute to extract interpretable behavioral insights.
 
 ---
@@ -13,7 +13,7 @@ In this two-day lab practice, we will use a Jupyter notebook (which will be shar
 
 ## Prerequisites: Install Miniconda & Setup Jupyter
 
-If you do not have Conda installed, please follow these steps to set up your environment.
+If you do not have Conda installed, please follow these steps to set up your environment on MacOS, etc.
 
 ### 1. Download the Installer
 Open your terminal and run the command that matches your Mac's processor:
