@@ -1,0 +1,15 @@
+name: 2fish_tutorial
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - jupyter
+  - notebook
+  - ipykernel
+  - ipython
+  - nbconvert
+  - numpy
+  - matplotlib
+  - plotly
+  - ffmpeg
