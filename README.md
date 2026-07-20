@@ -70,7 +70,7 @@ Manual Steps:
 3. Create a new folder (for example, 2fish_tutorial)
 4. Save the environment.yml inside this new folder
 
-### 6. Direct to the newly created folder
+### 6. Change your terminal's directory to the new folder (e.g. 2fish_tutorial) using the cd command.
 * **macOS (use Terminal):**
 ```bash
 cd ~/Documents/2fish_tutorial
