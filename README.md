@@ -34,6 +34,10 @@ Execute the installer you just downloaded:
 ```bash
 bash Miniconda3-latest-MacOSX-arm64.sh
 ```
+* **For Intel-based MacOS:**
+```bash
+bash Miniconda3-latest-MacOSX-x86_64.sh
+```
 
 ### 3. Follow the Prompts
 Press Return to review the license agreement, then type yes to agree.
