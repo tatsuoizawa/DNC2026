@@ -24,7 +24,7 @@ Open your terminal and run the command that matches your Mac's processor:
 ```
 * **For MacOS (intel-based):**
 ```bash
-curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+  curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 ```
 
 * **For 64-bit Windows:**
