@@ -44,6 +44,11 @@ bash Miniconda3-latest-MacOSX-arm64.sh
 bash Miniconda3-latest-MacOSX-x86_64.sh
 ```
 
+* **For 64-bit Windows:**
+```text
+simply double-click the .exe file to launch the standard Windows installation wizard.
+```
+
 ### 3. Follow the Prompts
 Press Return to review the license agreement, then type yes to agree.
 Press Return to accept the default installation location.
@@ -51,30 +56,48 @@ When asked to initialize Miniconda, type yes. This allows the conda command to w
 
 ### 4. Refresh Your Terminal
 Apply the changes to your terminal immediately by reloading your shell configuration:
+* **macOS :**
 ```bash
 source ~/.zshrc
 ```
-(Alternatively, close your current terminal window and open a new one).
+* **macOS or Windows:**
+Alternatively, close your current terminal window and open a new one.
 
-### 5. Create and Activate the Environment
+### 5. Create Folder and Save Configuration
+Manual Steps:
+1. Open your file manager (File Explore on Windows or Finder on macOS)
+2. Navigate to your desired location (for example, inside of Documents or Desktop)
+3. Create a new folder (for example, 2fish_tutorial)
+4. Save the environment.yml inside this new folder
+
+### 6. Direct to the newly created folder
+* **macOS (use Terminal):**
+cd ~/Documents/2fish_tutorial
+
+* **Windows (use Anaconda Prompt):**
+```bash
+cd C:\Users\YourUsername\Documents\2fish_tutorial
+```
+
+### 7. Create and Activate the Environment
 Create the Conda Environment
 Build the project environment using the provided configurations:
 ```bash
 conda env create -n 2fish_tutorial -f environment.yml
 ```
 
-### 6. Activate the Environment
+### 8. Activate the Environment
 Activate your new isolated workspace:
 ```bash
 conda activate 2fish_tutorial
 ```
 
-### 7. Install Jupyter Notebook
+### 9. Install Jupyter Notebook
 ```bash
 conda install -c conda-forge notebook -y
 ```
 
-### 8. Launch the Tutorial
+### 10. Launch the Tutorial
 Fire up the local host server to begin:
 ```bash
 jupyter notebook
