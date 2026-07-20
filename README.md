@@ -72,8 +72,9 @@ Manual Steps:
 
 ### 6. Direct to the newly created folder
 * **macOS (use Terminal):**
+```bash
 cd ~/Documents/2fish_tutorial
-
+```
 * **Windows (use Anaconda Prompt):**
 ```bash
 cd C:\Users\YourUsername\Documents\2fish_tutorial
