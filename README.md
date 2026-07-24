@@ -112,9 +112,12 @@ If you prefer not to install anything locally, you are welcome to try Binder (ht
 ---
 ## References
  
-> Zebrafish Dataset: Deligkaris, K., Neiman, R., Hiroi, M., Izawa, T., O’Shaughnessy, L., Rodriguez, L. C., Masai, I., & Stephens, G. J. (2026). A dataset of fine-grained zebrafish interactions in health and disease. Scientific Data, 13(1), 583. https://doi.org/10.1038/s41597-026-06953-6 
+> Zebrafish Dataset:
+> * Deligkaris, K., Neiman, R., Hiroi, M., Izawa, T., O’Shaughnessy, L., Rodriguez, L. C., Masai, I., & Stephens, G. J. (2026). A dataset of fine-grained zebrafish interactions in health and disease. Scientific Data, 13(1), 583. https://doi.org/10.1038/s41597-026-06953-6 
 >
-> Analysis of Zebrafish Fighting: O'Shaughnessy, L., Izawa, T., Masai, I., Shaevitz, J. W., & Stephens, G. J. (2024). Dynamics of Dominance in Interacting Zebrafish. PRX Life, 2(4), 043006. https://doi.org/10.1103/PRXLife.2.043006
+> Analysis of Zebrafish Fighting:
+> * O'Shaughnessy, L., Izawa, T., Masai, I., Shaevitz, J. W., & Stephens, G. J. (2024). Dynamics of Dominance in Interacting Zebrafish. PRX Life, 2(4), 043006. https://doi.org/10.1103/PRXLife.2.043006
+> * Kawano, A., O’Shaughnessy, L., Neiman, R., Deligkaris, K., Rodriguez, L. C., Masai, I., & Stephens, G. J. (2025). Decomposing Predictive Information in Social Dynamics. bioRxiv, 2025.2005.2016.654393. https://doi.org/10.1101/2025.05.16.654393 
 ---
 
 ## Acknowledgements
