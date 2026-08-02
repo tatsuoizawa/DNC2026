@@ -123,3 +123,8 @@ If you prefer not to install anything locally, you are welcome to try Binder (ht
 ## Acknowledgements
 
 Thanks: Mariia Pavelchenko and Luis Carretero
+
+## Contact
+
+Questions or comments?
+Email me at tatsuo.izawa2@oist.jp
